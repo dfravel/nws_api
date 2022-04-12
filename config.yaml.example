@@ -1,0 +1,18 @@
+SITE:
+  TITLE: "CrossnoKaye National Weather Service API"
+
+# Development
+SERVER:
+  PORT: ':9999'
+  DEBUG: 'true'
+
+LOGGING:
+  LOGLEVEL: "info"
+  LOGOUTPUT: "stdout"
+
+GEOCODE:
+  APIURL: "https://thezipcodes.com/api/v1/"
+  AUTHTOKEN: ""
+
+FORECAST:
+  APIURL: "https://api.weather.gov/"
